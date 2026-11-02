@@ -77,7 +77,7 @@ export default function BookingForm() {
                 <option>Open to recommendations</option><option>Palm Jumeirah</option><option>Downtown Dubai</option><option>Dubai Marina</option><option>Dubai Hills Estate</option><option>Business Bay</option><option>Dubai Creek Harbour</option><option>Other</option>
               </select>
             </label>
-            <label className="block text-xs text-[#686d63] sm:col-span-2">Anything you'd like us to know? (optional)
+            <label className="block text-xs text-[#686d63] sm:col-span-2">Anything you&apos;d like us to know? (optional)
               <textarea value={message} onChange={(e) => setMessage(e.target.value)} rows={3} placeholder="Tell us about your property goals..." className="mt-2 w-full resize-y border border-black/15 bg-[#faf8f3] px-3 py-3.5 text-sm text-[#202620] placeholder:text-[#a0a096]" />
             </label>
           </div>
